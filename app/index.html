@@ -9,13 +9,13 @@
     <link rel="shortcut icon" href="/favicon.ico">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-    <link rel="stylesheet" href="styles/main.css">
+
     <!-- build:css(.) styles/vendor.css -->
     <!-- bower:css -->
     <!-- endbower -->
     <!-- endbuild -->
     <!-- build:css(.tmp) styles/main.css -->
-
+    <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
     <!-- build:js scripts/vendor/modernizr.js -->
     <script src="/bower_components/modernizr/modernizr.js"></script>
@@ -28,6 +28,7 @@
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
   <div class="site-wrapper">
+
     <!-- Fixed navbar -->
       <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
@@ -50,10 +51,41 @@
             </ul>
           </div><!--/.nav-collapse -->
         </div>
-      </nav>
+      </nav> <!--/nav-->
 
       <div class="container-fluid">
-        <div class="cover-container">
+        <div class"row">
+          <div class="col-xs-12">
+            <h1 id="main-title">Web Developer | Artist | Geek</h1>
+          </div>
+          <div class="row">
+            <div class="scroll-downs">
+              <div class="mousey">
+                <div class="scroller"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-12">
+            <p id="statement">I am an artist, web developer, and geek culture aficionado from Seattle, WA. I love tackling web development and design problems and specialize in creating beautiful and interactive user interfaces. I am looking for new and challenging roles in a company that seeks to push the limits of its web capabilities.</p>
+          </div>
+        </div>
+      </div>
+
+      <div id="skills">
+        <div class="container-fluid">
+          <div class="row">
+            <h2>Skills</h2>
+          </div>
+          <div class"row">
+            <div class="col-xs-12 col-lg-4">
+
+            </div>
+          </div>
         </div>
       </div>
 
@@ -84,6 +116,7 @@
 
     <!-- build:js(.tmp) scripts/main.js -->
     <script src="scripts/main.js"></script>
+    <script src="scripts/noframework.waypoints.min.js"></script>
     <!-- endbuild -->
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->

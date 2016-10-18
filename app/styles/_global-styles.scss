@@ -5,11 +5,34 @@ body {
    background-size: cover;
  }
 
- .navbar {
-   background-color: black;
-   border-color: black;
+ h1, h2 {
+   color: $highlight;
+   font-family: 'Ubuntu', sans-serif;
  }
 
- .navbar-default .navbar-brand {
+ p {
    color: $highlight;
+   font-family: 'Open Sans', sans-serif;
  }
+
+#main-title {
+   position: relative;
+   top: 425px;
+   float: right;
+ }
+
+ #statement {
+   position: relative;
+   width: 350px;
+   height: auto;
+   top: 200px;
+   float: right;
+   color: black;
+ }
+
+#skills {
+  position: relative;
+  top: 900px;
+  height:auto;
+  background-color: black;
+}
