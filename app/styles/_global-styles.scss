@@ -5,34 +5,23 @@ body {
    background-size: cover;
  }
 
- h1, h2 {
+h1, h2 {
    color: $highlight;
    font-family: 'Ubuntu', sans-serif;
  }
 
- p {
+h3 {
+  color: #9D9E9E;
+  font-family: 'Open sans', sans-serif;
+  font-size: 12pt;
+}
+
+p {
    color: $highlight;
    font-family: 'Open Sans', sans-serif;
  }
 
-#main-title {
-   position: relative;
-   top: 425px;
-   float: right;
- }
-
- #statement {
-   position: relative;
-   width: 350px;
-   height: auto;
-   top: 200px;
-   float: right;
-   color: black;
- }
-
-#skills {
-  position: relative;
-  top: 900px;
-  height:auto;
-  background-color: black;
+li {
+  color: $highlight;
+  font-family: 'Open Sans', sans-serif;
 }

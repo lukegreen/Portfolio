@@ -1,0 +1,132 @@
+#main-title {
+   position: relative;
+   top: 425px;
+   float: right;
+ }
+
+#statement {
+  position: fixed;
+  width: 325px;
+  height: auto;
+  top: 100px;
+  right: 10px;
+  color: white;
+  visibility: hidden;
+ }
+
+#skills {
+  position: relative;
+  top:1000px;
+  height:auto;
+  background-color: black;
+}
+
+#skills h2 {
+  position: relative;
+  left: 50px;
+}
+
+.skills-list {
+  position: relative;
+  display: inline-block;
+  width: 150px;
+  left: 100px;
+  text-align: right;
+}
+
+.skills-list ul {
+  list-style: none;
+}
+
+.skills-list li {
+  margin: 2px;
+}
+
+.skills-graph {
+    position: relative;
+    display: inline-block;
+    height: 140px;
+    width: 300px;
+    left: 100px;
+}
+
+#html, #css, #javascript, #angular, #photoshop, #illustrator, #blender, #indesign {
+  position: relative;
+  height: 18px;
+  background-color: #FFD93B;
+  margin: 5px;
+  width: 1px;
+  transition-delay: 2s;
+  transition-duration: 2s;
+  transition-property: width;
+}
+
+.skills-graph p {
+  position: relative;
+  text-align: right;
+  color: black;
+}
+
+#html.full {
+  width: 300px;
+}
+#css.full {
+  width: 275px;
+}
+#javascript.full {
+  width: 250px;
+}
+#angular.full {
+  width: 225px;
+}
+
+#photoshop.full {
+  width: 320px;
+}
+#illustrator.full {
+  width: 250px;
+}
+#blender.full {
+  width: 100px;
+}
+#indesign.full {
+  width: 200px;
+}
+
+#projects {
+  position: relative;
+  top:1000px;
+  height: auto;
+  background-color: gray;
+}
+
+#projects h2 {
+  position: relative;
+  left: 50px;
+}
+
+#bio {
+  background: url(../images/portfolio-pic.jpg) center center fixed;
+  background-size: cover;
+  position: relative;
+  top: 1000px;
+  height: 60vh;
+  background-color: black;
+}
+
+#bio h2 {
+  position: relative;
+  left: 50px;
+}
+
+#contact {
+  position: relative;
+  top: 1000px;
+  height: auto;
+  background-color: gray;
+}
+
+#contact h2 {
+  position: relative;
+  left: 50px;
+}
