@@ -143,6 +143,20 @@ li {
   background-color: black;
 }
 
+ .bio-container {
+   position:relative;
+   right: 50px;
+   background-color: black;
+   opacity: 0.5;
+   width: 350px;
+   height: auto;
+   float: right;
+ }
+
+ .bio-container p {
+   margin: 10px;
+ }
+
 #contact {
   position: relative;
   top: 1000px;
