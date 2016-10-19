@@ -36,7 +36,7 @@ $(document).ready(function(){
         console.log('I am full');
       }
     },
-    offset: 650
+    offset: 590
   });
 
 })
