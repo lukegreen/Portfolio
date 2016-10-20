@@ -134,6 +134,40 @@ li {
   background-color: gray;
 }
 
+#projects h2{
+  margin-bottom: 20px;
+}
+
+#projects h4{
+  color: #333333;
+}
+
+#projects p {
+  max-width: 300px;
+}
+
+#projects img {
+  border-radius: 4px;
+}
+
+#projects a {
+  color: $highlight;
+  border-color: $highlight;
+  background:rgba(0,0,0,0);
+}
+
+#projects .btn-group {
+  margin-top: 10px;
+}
+
+#projects div.row {
+  margin-left: 20px;
+}
+
+#projects div.col-lg-4 {
+  margin-bottom: 30px;
+}
+
 #bio {
   background: url(../images/portfolio-pic.jpg) center center fixed;
   background-size: cover;
