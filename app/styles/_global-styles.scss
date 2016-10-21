@@ -161,7 +161,7 @@ li {
 }
 
 #projects div.row {
-  margin-left: 20px;
+  margin-left: 20px
 }
 
 #projects div.col-lg-4 {
@@ -173,7 +173,7 @@ li {
   background-size: cover;
   position: relative;
   top: 1000px;
-  height: 60vh;
+  height: 80vh;
   background-color: black;
 }
 
@@ -181,14 +181,16 @@ li {
    position:relative;
    right: 50px;
    background-color: black;
-   opacity: 0.5;
+   border-radius: 4px;
+   border: 1px solid $highlight;
+   opacity: 0.8;
    width: 350px;
    height: auto;
    float: right;
  }
 
  .bio-container p {
-   margin: 10px;
+   margin: 25px;
  }
 
 #contact {
