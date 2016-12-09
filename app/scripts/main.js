@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-  var waypoint1 = new Waypoint({
+  /*var waypoint1 = new Waypoint({
   element: document.getElementById('main-title'),
   handler: function(direction) {
     if (direction === 'down') {
@@ -31,6 +31,6 @@ $(document).ready(function(){
         $('#html, #css, #javascript, #angular, #photoshop, #illustrator, #blender, #indesign').addClass("full");
     },
     offset: 800
-  });
+  });*/
 
 })

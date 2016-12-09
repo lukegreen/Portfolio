@@ -7,7 +7,7 @@ body {
  }
 
 h1, h2 {
-   color: $highlight;
+   color: black;
    font-family: 'Ubuntu', sans-serif;
  }
 
@@ -24,178 +24,15 @@ h4 {
 }
 
 p {
-   color: $highlight;
    font-family: 'Open Sans', sans-serif;
  }
 
 li {
-  color: $highlight;
   font-family: 'Open Sans', sans-serif;
 }
 
 #main-title {
-   position: relative;
-   top: 425px;
-   float: right;
- }
-
-#statement {
-  position: fixed;
-  width: 325px;
-  height: auto;
+  position: relative;
   top: 100px;
-  right: 50px;
-  color: white;
-  visibility: hidden;
- }
-
-#skills h2, #projects h2, #bio h2, #contact h2 {
-   margin-left: 30px;
- }
-
-#skills {
-  position: relative;
-  top:1000px;
-  height:auto;
-  background-color: black;
-}
-
-.skills-list {
-  position: relative;
-  display: inline-block;
-  width: 150px;
-  left: 100px;
-  text-align: right;
-}
-
-.skills-list ul {
-  list-style: none;
-}
-
-.skills-list li {
-  margin: 2px;
-}
-
-.skills-graph {
-    position: relative;
-    display: inline-block;
-    height: 140px;
-    width: 300px;
-    left: 100px;
-}
-
-#html, #css, #javascript, #angular, #photoshop, #illustrator, #blender, #indesign {
-  position: relative;
-  height: 18px;
-  background-color: #FFD93B;
-  margin: 5px;
-  width: 1px;
-  transition-delay: 2s;
-  transition-duration: 2s;
-  transition-property: width;
-}
-
-.skills-graph p {
-  position: relative;
-  text-align: right;
-  color: black;
-}
-
-#html.full {
-  width: 300px;
-}
-#css.full {
-  width: 275px;
-}
-#javascript.full {
-  width: 250px;
-}
-#angular.full {
-  width: 225px;
-}
-
-#photoshop.full {
-  width: 300px;
-}
-#illustrator.full {
-  width: 250px;
-}
-#blender.full {
-  width: 100px;
-}
-#indesign.full {
-  width: 200px;
-}
-
-#projects {
-  position: relative;
-  top:1000px;
-  height: auto;
-  background-color: gray;
-}
-
-#projects h2{
-  margin-bottom: 20px;
-}
-
-#projects h4{
-  color: #333333;
-}
-
-#projects p {
-  max-width: 300px;
-}
-
-#projects img {
-  border-radius: 4px;
-}
-
-#projects a {
-  color: $highlight;
-  border-color: $highlight;
-  background:rgba(0,0,0,0);
-}
-
-#projects .btn-group {
-  margin-top: 10px;
-}
-
-#projects div.row {
-  margin-left: 20px
-}
-
-#projects div.col-lg-4 {
-  margin-bottom: 30px;
-}
-
-#bio {
-  background: url(../images/portfolio-pic.jpg) center center fixed;
-  background-size: cover;
-  position: relative;
-  top: 1000px;
-  height: 80vh;
-  background-color: black;
-}
-
- .bio-container {
-   position:relative;
-   right: 50px;
-   background-color: black;
-   border-radius: 4px;
-   border: 1px solid $highlight;
-   opacity: 0.8;
-   width: 350px;
-   height: auto;
-   float: right;
-}
-
-.bio-container p {
-   margin: 25px;
-}
-
-#contact {
-  position: relative;
-  top: 1000px;
-  height: auto;
-  background-color: gray;
+  margin: auto;
 }
