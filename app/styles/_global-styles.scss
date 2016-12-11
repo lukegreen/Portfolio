@@ -1,9 +1,12 @@
 
 body {
-   background: url(../images/portfolio-pic-sound2.jpg) no-repeat center fixed;
-   -webkit-background-size: cover;
-   -moz-background-size: cover;
-   background-size: cover;
+   //background: url(../images/portfolio-pic-sound2.jpg) no-repeat center fixed;
+   //-webkit-background-size: cover;
+   //-moz-background-size: cover;
+   //background-size: cover;
+   margin: 0;
+   padding: 0;
+
  }
 
 h1, h2 {
@@ -31,8 +34,87 @@ li {
   font-family: 'Open Sans', sans-serif;
 }
 
-#main-title {
+/*title stuff*/
+
+
+.main-title {
   position: relative;
   top: 100px;
   margin: auto;
+}
+
+@media only screen and (min-width: 400px){
+  #main-heading {
+    margin-left: 50px;
+    width: 750px;
+    margin: auto;
+    font-size: 40pt;
+  }
+}
+
+/* Skills ------------------------- */
+
+.skills {
+  position: relative;
+  top: 150px;
+}
+
+.skill-box {
+  line-height: 300px;
+  height: 300px;
+  text-align: center;
+}
+
+#skill-set-one {
+  background-color: #58CFFF;
+}
+
+#skill-set-two {
+  background-color: #52727F;
+}
+
+#skill-set-three {
+  background-color: #58CFFF;
+}
+
+#skill-set-four {
+  background-color: #52727F;
+}
+
+.skill-label {
+  display: inline-block;
+  line-height: 1.5;
+  color: white;
+  vertical-align: middle;
+}
+
+/* Featurettes ------------------------- */
+
+.projects {
+  position:relative;
+  top: 350px;
+}
+
+.featurette-divider {
+  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+@media (min-width: 768px) {
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 120px;
+  }
 }

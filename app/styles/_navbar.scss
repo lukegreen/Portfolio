@@ -17,6 +17,11 @@
   background-color: #58CFFF;
 }
 
-.navbar-header button, .navbar-default .navbar-toggle {
+.navbar-header button, .navbar-default .navbar-toggle, .navbar-default .navbar-toggle:focus {
   border-color: #58CFFF;
+  background-color: #58CFFF;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
 }
