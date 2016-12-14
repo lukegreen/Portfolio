@@ -1,10 +1,10 @@
 
 body {
-   //background: url(../images/portfolio-pic-sound2.jpg) no-repeat center fixed;
-   //-webkit-background-size: cover;
+   background: url(../images/001-edit.jpg) no-repeat center fixed;
+   -webkit-background-size: cover;
    //-moz-background-size: cover;
    //background-size: cover;
-   margin: 0;
+   margin-top: 0;
    padding: 0;
 
  }
@@ -34,8 +34,11 @@ li {
   font-family: 'Open Sans', sans-serif;
 }
 
-/*title stuff*/
+#first-divider {
+  margin-bottom: 30px;
+}
 
+/*title stuff*/
 
 .main-title {
   position: relative;
@@ -43,12 +46,20 @@ li {
   margin: auto;
 }
 
+#main-heading {
+  margin-top: 400px;
+  color: white;
+  font-weight: bold;
+}
+
 @media only screen and (min-width: 400px){
   #main-heading {
+    margin-top: 250px;
     margin-left: 50px;
-    width: 750px;
-    margin: auto;
-    font-size: 40pt;
+    width: 450px;
+    font-size: 45pt;
+    color: white;
+    font-weight: bold;
   }
 }
 
@@ -56,7 +67,7 @@ li {
 
 .skills {
   position: relative;
-  top: 150px;
+  top: 400px;
 }
 
 .skill-box {
@@ -88,11 +99,21 @@ li {
   vertical-align: middle;
 }
 
+.skill-detail {
+  display: inline-block;
+  line-height: 1.5;
+  color: white;
+  vertical-align: middle;
+  font-size: 15pt;
+}
+
 /* Featurettes ------------------------- */
 
 .projects {
   position:relative;
-  top: 350px;
+  top: 400px;
+  background-color: white;
+  height: auto;
 }
 
 .featurette-divider {
@@ -117,4 +138,36 @@ li {
   .featurette-heading {
     margin-top: 120px;
   }
+}
+
+#responsive-sample {
+  margin-top: 100px;
+}
+
+#concept-sample {
+  margin-top: 70px;
+}
+
+/*Bio*--------------------------------*/
+
+.bio {
+  position: relative;
+  top: 400px;
+  height: auto;
+  background-color: #58CFFF;
+}
+
+
+/*Contact*-----------------------------*/
+
+.contact {
+  position: relative;
+  top: 400px;
+  height: auto;
+  background-color: #2C677F;
+}
+
+.contact img {
+  margin: 50px;
+  width: 50px;
 }

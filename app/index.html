@@ -59,35 +59,39 @@
           <h1 id="main-heading">Web Developer | Artist | Geek</h1>
       </div>
 
-      <div class="container-fluid skills">
+      <div class="container-fluid skills" id="skills">
         <div class="row">
           <div class="skill-box col-xs-12 col-md-3" id="skill-set-one">
             <h2 class="skill-label">HTML5 and CSS</h2>
+            <h3 class="skill-detail">[SASS, Less, Bootstrap]</h3>
           </div>
           <div class="skill-box col-xs-12 col-md-3" id="skill-set-two">
             <h2 class="skill-label">Javascript</h2>
+            <h3 class="skill-detail">[jQuery, Angular, React, Ionic]</h3>
           </div>
           <div class="skill-box col-xs-12 col-md-3" id="skill-set-three">
             <h2 class="skill-label">Illustration</h2>
+            <h3 class="skill-detail">[Photoshop, Illustrator, InDesign]</h3>
           </div>
           <div class="skill-box col-xs-12 col-md-3" id="skill-set-four">
             <h2 class="skill-label">3D Modeling</h2>
+            <h3 class="skill-detail">[SketchUp, Blender]</h3>
           </div>
         </div>
       </div>
 
-      <div class="container-fluid projects">
+      <div class="container-fluid projects" id="projects">
         <!-- START THE FEATURETTES -->
 
-        <hr class="featurette-divider">
+        <hr class="featurette-divider" id="first-divider">
 
         <div class="row featurette">
           <div class="col-md-7">
             <h2 class="featurette-heading">Responsive web applications. <span class="text-muted">From wireframing to deployment.</span></h2>
-            <p class="lead">I have experience planning, developing and deploying web applications utilizing a variety of Javascript frameworks.</p>
+            <p class="lead">I have experience planning, developing and deploying web applications utilizing a variety of Javascript frameworks. <a href="">See some of my web development projects...</a></p>
           </div>
           <div class="col-md-5">
-            <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+            <img class="featurette-image img-responsive center-block" id="responsive-sample" src="images/Rovertrak-wireframes.jpg" alt="Mobile mock-ups of the Rovertrak application">
           </div>
         </div>
 
@@ -96,10 +100,10 @@
         <div class="row featurette">
           <div class="col-md-7 col-md-push-5">
             <h2 class="featurette-heading">Intuitive UI/UX. <span class="text-muted">See for yourself.</span></h2>
-            <p class="lead">I work from a ‘mobile-first’ design philosophy and adhere to modern accessibility standards.</p>
+            <p class="lead">I work from a ‘mobile-first’ design philosophy and adhere to modern accessibility standards. <a href="">Learn more about how I approach design problems.</a></p>
           </div>
           <div class="col-md-5 col-md-pull-7">
-            <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+            <img class="featurette-image img-responsive center-block" id="ui-sample" src="images/sample-bio-screen.jpg" alt="Sample UI image">
           </div>
         </div>
 
@@ -108,10 +112,10 @@
         <div class="row featurette">
           <div class="col-md-7">
             <h2 class="featurette-heading">Illustration and concept art. <span class="text-muted">Visualizing worlds.</span></h2>
-            <p class="lead">Everything I do comes from my core interests in visual design.  I have extensive experience as a concept artist and illustrator in the table top game industry.  There are few things I enjoy more than working with others to bring creative visions to life.</p>
+            <p class="lead">Everything I do comes from my core interests in visual design.  I have extensive experience as a concept artist and illustrator in the table top game industry.  There are few things I enjoy more than working with others to bring creative visions to life. <a href="">Take a look at some of my illustrations...</a></p>
           </div>
           <div class="col-md-5">
-            <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+            <img class="featurette-image img-responsive center-block" id="concept-sample" src="images/Twinned-Cities-FINAL.jpg" alt="Concept Art sample">
           </div>
         </div>
 
@@ -121,13 +125,30 @@
 
       </div> <!--/projects section-->
 
-      <div class="container-fluid bio">
+      <div class="container-fluid bio" id="bio">
+        <h2>About Me</h2>
+        <p>This is where I write things about me</p>
 
       </div> <!--/bio section-->
 
-     <div class="container-fluid contact">
-
+     <div class="container-fluid contact" id="contact">
+       <h2>Contact</h2>
+       <div class="row">
+         <div class="contact-box col-xs-12 col-md-4">
+           <a href=""><img src="images/Mail_White.png" alt="email" width="50px" height="50px"></a>
+         </div>
+         <div class="contact-box col-xs-12 col-md-4">
+           <a href="https://github.com/lukegreen"><img src="images/Github_White.png" alt="email envelope" width="50px" height="50px"></a>
+         </div>
+         <div class="contact-box col-xs-12 col-md-4">
+           <a href=""><img src="images/LinkedIN_White.png" alt="LinkedIn" width="50px" height="50px"></a>
+         </div>
+       </div>
       </div> <!--/contact section-->
+
+      <footer>
+        <h5>Luke Green, 2017 | site powered by Yeoman, Bower, Grunt, HTML5, CSS3, jQuery, GitHub Pages</h5>
+      </footer>
 
 
    </div> <!-- /site wrapper-->

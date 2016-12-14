@@ -1,5 +1,12 @@
 $(document).ready(function(){
 
+  $('.skill-box').hover(function(){
+    $(this).children('h2').fadeOut(500);
+    
+  }, function(){
+    $(this).children('h2').fadeIn();
+  })
+
   /*var waypoint1 = new Waypoint({
   element: document.getElementById('main-title'),
   handler: function(direction) {
