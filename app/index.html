@@ -111,13 +111,13 @@
           <div class="collapse" id="application-samples">
             <div class="container-fluid well portfolio-samples">
               <div class="row">
-                <div class="col-xs-12 col-md-4 sample-box-one">
+                <div class="col-xs-12 col-md-4 sample-box-one" id="application-sample-one">
                   <p>CONTENT</p>
                 </div>
-                <div class="col-xs-12 col-md-4 sample-box-two">
+                <div class="col-xs-12 col-md-4 sample-box-two" id="application-sample-two">
                   <p>CONTENT</p>
                 </div>
-                <div class="col-xs-12 col-md-4 sample-box-one">
+                <div class="col-xs-12 col-md-4 sample-box-one" id="application-sample-three">
                   <p>CONTENT</p>
                 </div>
               </div>
@@ -132,7 +132,7 @@
           <div class="col-md-7 col-md-push-5">
             <h2 class="featurette-heading">Intuitive UI/UX. <span class="text-muted">See for yourself.</span></h2>
             <p class="lead">I work from a ‘mobile-first’ design philosophy and adhere to modern accessibility standards. <a href="">Learn more about how I approach design problems.</a></p>
-            <button class="btn btn-primary portfolio-button" type="button" data-toggle="collapse" data-target="#ui-portfolio" aria-expanded="false" aria-controls="collapseExample">
+            <button class="btn btn-primary portfolio-button" id="ui-button" type="button" data-toggle="collapse" data-target="#ui-portfolio" aria-expanded="false" aria-controls="collapseExample">
               Samples
             </button>
           </div>
@@ -141,7 +141,7 @@
           </div>
         </div>
 
-        <div class="row application-samples">
+        <div class="row ui-samples">
           <div class="collapse" id="ui-portfolio">
             <div class="container-fluid well portfolio-samples">
               <div class="row">
@@ -162,16 +162,16 @@
           <div class="col-md-7">
             <h2 class="featurette-heading">Illustration and concept art. <span class="text-muted">Visualizing worlds.</span></h2>
             <p class="lead">Everything I do comes from my core interests in visual design.  I have extensive experience as a concept artist and illustrator in the table top game industry.  There are few things I enjoy more than working with others to bring creative visions to life. <a href="">Take a look at some of my illustrations...</a></p>
-            <button class="btn btn-primary portfolio-button" type="button" data-toggle="collapse" data-target="#art-portfolio" aria-expanded="false" aria-controls="collapseExample">
+            <button class="btn btn-primary portfolio-button" id="illustration-button" type="button" data-toggle="collapse" data-target="#art-portfolio" aria-expanded="false" aria-controls="collapseExample">
               Samples
             </button>
           </div>
           <div class="col-md-5">
-            <img class="featurette-image img-responsive center-block" id="concept-sample" src="images/Twinned-Cities-FINAL.jpg" alt="Concept Art sample">
+            <img class="featurette-image img-responsive center-block" id="illustration-sample" src="images/Twinned-Cities-FINAL.jpg" alt="Concept Art sample">
           </div>
         </div>
 
-        <div class="row application-samples">
+        <div class="row illustration-samples">
           <div class="collapse" id="art-portfolio">
             <div class="container-fluid well portfolio-samples">
               <div class="row">
@@ -192,16 +192,16 @@
           <div class="col-md-7 col-md-push-5">
             <h2 class="featurette-heading">3D Modeling. <span class="text-muted">Game-ready design concepts.</span></h2>
             <p class="lead">I've added SketchUp and Blender to my toolkit so that I can better interface with programmers and modelers as a concept artist.  A solid 3D structure also provides digital painting with a strong foundation. <a href="">Check out samples of my 3D modling work...</a></p>
-            <button class="btn btn-primary portfolio-button" type="button" data-toggle="collapse" data-target="#three-d-portfolio" aria-expanded="false" aria-controls="collapseExample">
+            <button class="btn btn-primary portfolio-button" id="three-d-button" type="button" data-toggle="collapse" data-target="#three-d-portfolio" aria-expanded="false" aria-controls="collapseExample">
               Samples
             </button>
           </div>
           <div class="col-md-5 col-md-pull-7">
-            <img class="featurette-image img-responsive center-block" id="ui-sample" src="images/sample-bio-screen.jpg" alt="Sample UI image">
+            <img class="featurette-image img-responsive center-block" id="three-d-sample" src="images/sample-bio-screen.jpg" alt="Sample UI image">
           </div>
         </div>
 
-        <div class="row application-samples">
+        <div class="row three-d-samples">
           <div class="collapse" id="three-d-portfolio">
             <div class="container-fluid well portfolio-samples">
               <div class="row">
@@ -224,18 +224,29 @@
 
       <!--Bio-->
       <div class="container-fluid bio" id="bio">
-        <h2>About Me</h2>
-        <p>This is where I write things about me</p>
-
+          <dl>
+            <dt>Goal</dt>
+            <dd>To build things that make the world a better, more interesting place.</dd>
+            <dt>Career objective</dt>
+            <dd>To acquire a position with a dynamic, creative team.</dd>
+            <dt>Interests</dt>
+            <dd>UI/UX, Javascript, Usability, Data Architecture, Concept Art
+            <dt>Hobbies</dt>
+            <dd>Mountaineering, reading science-fiction, board and card games.</dd>
+            <dt>Current location</dt>
+            <dd>Seattle, WA</dd>
+            <dt>Education</dt>
+            <dd>M.A., Psychology (Seattle University) | B.A., English (Indiana University)</dd>
+          </dl>
       </div> <!--/bio section-->
 
       <!--Contact-->
      <div class="container-fluid contact" id="contact">
-       <h2>Contact</h2>
+       <div class="contact-spacer"></div>
        <div class="row">
          <div class="contact-box col-xs-12 col-md-4">
            <figure>
-             <a href=""><img src="images/Mail_White.png" alt="email" width="50px" height="50px"></a>
+             <img src="images/Mail_White.png" alt="email" width="50px" height="50px">
              <figcaption>lukegreen303@gmail.com</figcaption>
            </figure>
          </div>

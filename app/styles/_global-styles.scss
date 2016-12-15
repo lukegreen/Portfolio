@@ -193,6 +193,11 @@ li {
   margin-bottom: 20px;
 }
 
+#application-sample-one:hover {
+  background: url(../images/API-superstore-screen.jpg) center;
+  background-size: cover;
+}
+
 /*Bio*--------------------------------*/
 
 .bio {
@@ -216,6 +221,26 @@ li {
   font-size: 15pt;
 }
 
+dt {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 12pt;
+  margin-top: 10px;
+}
+
+dd {
+  font-family: 'Open sans', sans-serif;
+  font-size: 10pt;
+}
+
+dt, dd {
+  color: white;
+  text-align: center;
+}
+
+dl {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
 /*Contact*-----------------------------*/
 
 .contact {
@@ -224,6 +249,18 @@ li {
   height: auto;
   min-height: 300px;
   background-color: #2C677F;
+}
+
+.contact-spacer {
+  height: 40px;
+  width: auto;
+}
+
+@media only screen and (min-width: 400px){
+  .contact-spacer {
+    height: 100px;
+    width: auto;
+  }
 }
 
 .contact img {
