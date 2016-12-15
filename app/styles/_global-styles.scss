@@ -1,6 +1,6 @@
 
 body {
-   background: url(../images/001-edit.jpg) no-repeat center fixed;
+   background: url(../images/portfolio-pic-3.jpg) no-repeat center fixed;
    -webkit-background-size: cover;
    //-moz-background-size: cover;
    //background-size: cover;
@@ -38,7 +38,7 @@ li {
   margin-bottom: 30px;
 }
 
-/*title stuff*/
+/*title stuff-----------------------*/
 
 .main-title {
   position: relative;
@@ -49,7 +49,7 @@ li {
 #main-heading {
   margin-top: 400px;
   color: white;
-  font-weight: bold;
+  float: right;
 }
 
 @media only screen and (min-width: 400px){
@@ -59,8 +59,32 @@ li {
     width: 450px;
     font-size: 45pt;
     color: white;
-    font-weight: bold;
   }
+}
+
+#main-heading span {
+  color: #00D3FF;
+}
+
+/*Personal Statement-----------------*/
+
+.statement {
+  position: relative;
+  top: 400px;
+  background-color: #00A9CC;
+  height: auto;
+  min-height: 300px;
+}
+
+.statement p {
+  vertical-align: middle;
+  height: auto;
+  margin: auto;
+  margin-top: 50px;
+  padding: 50px;
+  color: white;
+  font-family: 'Open sans', sans-serif;
+  font-size: 15pt;
 }
 
 /* Skills ------------------------- */
@@ -148,15 +172,49 @@ li {
   margin-top: 70px;
 }
 
+.sample-box-one {
+  line-height: 300px;
+  height: 300px;
+  text-align: center;
+  background-color: #58CFFF;
+}
+
+.sample-box-two {
+  line-height: 300px;
+  height: 300px;
+  text-align: center;
+  background-color: #52727F;
+}
+
+.portfolio-button {
+  border-radius: 0;
+  background-color: #00A9CC;
+  border-color: #00A9CC;
+  margin-bottom: 20px;
+}
+
 /*Bio*--------------------------------*/
 
 .bio {
   position: relative;
   top: 400px;
   height: auto;
+  min-height: 300px;
   background-color: #58CFFF;
 }
 
+.bio h2, .bio p {
+  color: white;
+}
+
+.bio p {
+  vertical-align: middle;
+  height: auto;
+  margin: auto;
+  padding: 50px;
+  font-family: 'Open sans', sans-serif;
+  font-size: 15pt;
+}
 
 /*Contact*-----------------------------*/
 
@@ -164,10 +222,29 @@ li {
   position: relative;
   top: 400px;
   height: auto;
+  min-height: 300px;
   background-color: #2C677F;
 }
 
 .contact img {
-  margin: 50px;
+  display: block;
+  margin: auto;
   width: 50px;
+}
+
+figure {
+  padding: 10px;
+}
+
+figcaption {
+  padding: 5px;
+  text-align: center;
+  color: white;
+  font-family: 'Open sans', sans-serif;
+  font-size: 10pt;
+
+}
+
+.contact h2 {
+  color: white;
 }
