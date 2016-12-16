@@ -54,173 +54,220 @@
         </div>
       </nav> <!--/nav-->
 
-      <div class="container-fluid">
+      <!--Title-->
+      <div class="container-fluid main-title">
+          <h1 id="main-heading">Web Developer <span>|</span> Artist <span>|</span> Geek</h1>
+      </div> <!--/Title-->
+
+      <!--Personal Statement-->
+      <div class="container-fluid statement" id="statement">
+        <div class="statement-container">
+          <p>"My name is Luke Green.  I am a web developer, artist and geek culture afficionado seeking new roles with highly creative teams.  I am a recent graduate of Seattle University's Web, Applications, and Technology Studies certificiate program. Take a look at the sections below for more about my web development and digital illustration skills."</p>
+        </div>
+      </div><!--/Personal Statement-->
+
+      <!--Skills-->
+      <div class="container-fluid skills" id="skills">
         <div class="row">
-          <div class="col-xs-12">
-            <p id="statement">I am an artist, web developer, and geek culture aficionado from Seattle, WA. I love tackling web development and design problems and specialize in creating beautiful and interactive user interfaces. I am looking for new and challenging roles in a company that seeks to push the limits of its web capabilities.</p>
+          <div class="skill-box col-xs-12 col-md-3" id="skill-set-one">
+            <h2 class="skill-label">HTML5 and CSS</h2>
+            <h3 class="skill-detail">[SASS, Less, Bootstrap]</h3>
+          </div>
+          <div class="skill-box col-xs-12 col-md-3" id="skill-set-two">
+            <h2 class="skill-label">Javascript</h2>
+            <h3 class="skill-detail">[jQuery, Angular, React, Ionic]</h3>
+          </div>
+          <div class="skill-box col-xs-12 col-md-3" id="skill-set-three">
+            <h2 class="skill-label">Illustration</h2>
+            <h3 class="skill-detail">[Photoshop, Illustrator, InDesign]</h3>
+          </div>
+          <div class="skill-box col-xs-12 col-md-3" id="skill-set-four">
+            <h2 class="skill-label">3D Modeling</h2>
+            <h3 class="skill-detail">[SketchUp, Blender]</h3>
           </div>
         </div>
-      </div>
+      </div><!--/Skills-->
 
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-xs-12">
-            <h1 id="main-title">Web Developer | Artist | Geek</h1>
+      <!--Projects-->
+      <div class="container-fluid projects" id="projects">
+        <!-- START THE FEATURETTES -->
+
+        <hr class="featurette-divider" id="first-divider">
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">Responsive web applications. <span class="text-muted">From wireframing to deployment.</span></h2>
+            <p class="lead">I have experience planning, developing and deploying web applications utilizing a variety of Javascript frameworks. <a href="">See some of my web development projects...</a></p>
+            <button class="btn btn-primary portfolio-button" id="application-button" type="button" data-toggle="collapse" data-target="#application-samples" aria-expanded="false" aria-controls="collapseExample">
+              Samples
+            </button>
+          </div>
+          <div class="col-md-5">
+            <img class="featurette-image img-responsive center-block" id="responsive-sample" src="images/Rovertrak-wireframes.jpg" alt="Mobile mock-ups of the Rovertrak application">
           </div>
         </div>
 
-          <div class="row">
-            <div class="scroll-downs">
-              <div class="mousey">
-                <div class="scroller"></div>
-              </div>
-            </div>
-          </div>
-      </div>
-
-      <div id="skills">
-        <div class="container-fluid">
-          <div class="row">
-            <h2>Skills</h2>
-          </div>
-          <div class="row">
-            <div class="col-xs-12 col-lg-6">
-              <div class="skills-list">
-                <h3>web development</h3>
-                <ul>
-                  <li>HTML5</li>
-                  <li>CSS</li>
-                  <li>JAVASCRIPT</li>
-                  <li>ANGULAR JS</li>
-                </ul>
-              </div>
-
-              <div class="skills-graph">
-                <div id="html"><p>expert</p></div>
-                <div id="css"><p>advanced</p></div>
-                <div id="javascript"><p>advanced</p></div>
-                <div id="angular"><p>intermediate</p></div>
-              </div>
-            </div>
-
-            <div class="col-xs-12 col-lg-6">
-              <div class="skills-list">
-                <h3>visual design</h3>
-                <ul>
-                  <li>PHOTOSHOP</li>
-                  <li>ILLUSTRATOR</li>
-                  <li>BLENDER</li>
-                  <li>INDESIGN</li>
-                </ul>
-              </div>
-
-              <div class="skills-graph">
-                <div id="photoshop"><p>expert</p></div>
-                <div id="illustrator"><p>advanced</p></div>
-                <div id="blender"><p>beginner</p></div>
-                <div id="indesign"><p>intermediate</p></div>
+        <div class="row application-samples">
+          <div class="collapse" id="application-samples">
+            <div class="container-fluid well portfolio-samples">
+              <div class="row">
+                <div class="col-xs-12 col-md-4 sample-box-one" id="application-sample-one">
+                  <p>CONTENT</p>
+                </div>
+                <div class="col-xs-12 col-md-4 sample-box-two" id="application-sample-two">
+                  <p>CONTENT</p>
+                </div>
+                <div class="col-xs-12 col-md-4 sample-box-one" id="application-sample-three">
+                  <p>CONTENT</p>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
 
-      <div id="projects">
-        <div class="container-fluid marketing">
-          <div class="row">
-            <h2>Projects</h2>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-7 col-md-push-5">
+            <h2 class="featurette-heading">Intuitive UI/UX. <span class="text-muted">See for yourself.</span></h2>
+            <p class="lead">I work from a ‘mobile-first’ design philosophy and adhere to modern accessibility standards. <a href="">Learn more about how I approach design problems.</a></p>
+            <button class="btn btn-primary portfolio-button" id="ui-button" type="button" data-toggle="collapse" data-target="#ui-portfolio" aria-expanded="false" aria-controls="collapseExample">
+              Samples
+            </button>
           </div>
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <h4>API Superstore</h4>
-              <a href="http://lukegreen.net/API-superstore"><img src="images/API-superstore-screen.jpg" alt="API Superstore" height="200px" width="300px"></a>
-              <div class="btn-group btn-group-sm" role="group" aria-label="...">
-                <a href="http://lukegreen.net/API-superstore" class="btn btn-default" role="button">Site</a>
-                <a href="https://github.com/lukegreen/API-superstore" class="btn btn-default" role="button">Repo</a>
-              </div>
-            </div><!-- /.col-lg-4 -->
-           <div class="col-lg-4 col-sm-12">
-              <h4>HELIONOX: Architects</h4>
-              <a href="http://lukegreen.net/wats-1020-final-project"><img src="images/HELIONOX-architects-screen.jpg" alt="Helionox Architects" height="200px" width="300px"></a>
-              <div class="btn-group btn-group-sm" role="group" aria-label="...">
-                <a href="http://lukegreen.net/wats-1020-final-project" class="btn btn-default" role="button">Site</a>
-                <a href="https://github.com/lukegreen/wats-1020-final-project" class="btn btn-default" role="button">Repo</a>
-              </div>
-            </div><!-- /.col-lg-4 -->
-           <div class="col-lg-4 col-sm-12">
-              <h4>QuickBGG</h4>
-              <a href="http://lukegreen.net/wats4000-application"><img src="images/QuickBGG-screen.jpg" alt="Quick BGG" height="200px" width="300px"></a>
-              <div class="btn-group btn-group-sm" role="group" aria-label="...">
-                <a href="http://lukegreen.net/wats4000-application" class="btn btn-default" role="button">Site</a>
-                <a href="https://github.com/lukegreen/wats4000-application" class="btn btn-default" role="button">Repo</a>
-              </div>
-            </div><!-- /.col-lg-4 -->
-          </div><!-- /.row -->
-
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <h4>CSS Zen Garden</h4>
-              <a href="http://lukegreen.net/wats1010-css-zen-garden"><img src="images/css-zen-screen.jpg" alt="CSS Zen Garden" height="200px" width="300px"></a>
-              <div class="btn-group btn-group-sm" role="group" aria-label="...">
-                <a href="http://lukegreen.net/wats1010-css-zen-garden" class="btn btn-default" role="button">Site</a>
-                <a href="https://github.com/lukegreen/wats1010-css-zen-garden" class="btn btn-default" role="button">Repo</a>
-              </div>
-            </div><!-- /.col-lg-4 -->
-           <div class="col-lg-4 col-sm-12">
-              <h4>Sample Biography</h4>
-              <a href="http://lukegreen.net/wats1020-dom-manipulation"><img src="images/sample-bio-screen.jpg" alt="Sample Biography" height="200px" width="300px"></a>
-              <div class="btn-group btn-group-sm" role="group" aria-label="...">
-                <a href="http://lukegreen.net/wats1020-dom-manipulation" class="btn btn-default" role="button">Site</a>
-                <a href="https://github.com/lukegreen/wats1020-dom-manipulation" class="btn btn-default" role="button">Repo</a>
-              </div>
-            </div><!-- /.col-lg-4 -->
-           <div class="col-lg-4 col-sm-12">
-              <h4>Capstone Project</h4>
-              <a href="http://lukegreen.net/capstone-FINAL"><img src="images/capstone-screen.jpg" alt="Capstone Project" height="200px" width="300px"></a>
-              <div class="btn-group btn-group-sm" role="group" aria-label="...">
-                <a href="http://lukegreen.net/capstone-FINAL" class="btn btn-default" role="button">Site</a>
-                <a href="https://github.com/lukegreen/capstone-FINAL" class="btn btn-default" role="button">Repo</a>
-              </div>
-            </div><!-- /.col-lg-4 -->
-          </div><!-- /.row -->
+          <div class="col-md-5 col-md-pull-7">
+            <img class="featurette-image img-responsive center-block" id="ui-sample" src="images/sample-bio-screen.jpg" alt="Sample UI image">
+          </div>
         </div>
+
+        <div class="row ui-samples">
+          <div class="collapse" id="ui-portfolio">
+            <div class="container-fluid well portfolio-samples">
+              <div class="row">
+                <div class="col-xs-12 col-md-4 sample-box-one">
+                </div>
+                <div class="col-xs-12 col-md-4 sample-box-two">
+                </div>
+                <div class="col-xs-12 col-md-4 sample-box-one">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">Illustration and concept art. <span class="text-muted">Visualizing worlds.</span></h2>
+            <p class="lead">Everything I do comes from my core interests in visual design.  I have extensive experience as a concept artist and illustrator in the table top game industry.  There are few things I enjoy more than working with others to bring creative visions to life. <a href="">Take a look at some of my illustrations...</a></p>
+            <button class="btn btn-primary portfolio-button" id="illustration-button" type="button" data-toggle="collapse" data-target="#art-portfolio" aria-expanded="false" aria-controls="collapseExample">
+              Samples
+            </button>
+          </div>
+          <div class="col-md-5">
+            <img class="featurette-image img-responsive center-block" id="illustration-sample" src="images/Twinned-Cities-FINAL.jpg" alt="Concept Art sample">
+          </div>
+        </div>
+
+        <div class="row illustration-samples">
+          <div class="collapse" id="art-portfolio">
+            <div class="container-fluid well portfolio-samples">
+              <div class="row">
+                <div class="col-xs-12 col-md-4 sample-box-one">
+                </div>
+                <div class="col-xs-12 col-md-4 sample-box-two">
+                </div>
+                <div class="col-xs-12 col-md-4 sample-box-one">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-7 col-md-push-5">
+            <h2 class="featurette-heading">3D Modeling. <span class="text-muted">Game-ready design concepts.</span></h2>
+            <p class="lead">I've added SketchUp and Blender to my toolkit so that I can better interface with programmers and modelers as a concept artist.  A solid 3D structure also provides digital painting with a strong foundation. <a href="">Check out samples of my 3D modling work...</a></p>
+            <button class="btn btn-primary portfolio-button" id="three-d-button" type="button" data-toggle="collapse" data-target="#three-d-portfolio" aria-expanded="false" aria-controls="collapseExample">
+              Samples
+            </button>
+          </div>
+          <div class="col-md-5 col-md-pull-7">
+            <img class="featurette-image img-responsive center-block" id="three-d-sample" src="images/sample-bio-screen.jpg" alt="Sample UI image">
+          </div>
+        </div>
+
+        <div class="row three-d-samples">
+          <div class="collapse" id="three-d-portfolio">
+            <div class="container-fluid well portfolio-samples">
+              <div class="row">
+                <div class="col-xs-12 col-md-4 sample-box-one">
+                </div>
+                <div class="col-xs-12 col-md-4 sample-box-two">
+                </div>
+                <div class="col-xs-12 col-md-4 sample-box-one">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <!-- /END THE FEATURETTES -->
+
       </div> <!--/projects section-->
 
-      <div id="bio">
-        <div class="container-fluid">
-          <div class="row">
-            <h2>Bio</h2>
-          </div>
-          <div class="row">
-            <div class="bio-container">
-              <h3>Education</h3>
-              <p>Indiana University, BA English Literature</p>
-              <p>Seattle Universtity, MA Psychology</p>
-              <p>Seattle University, Web Development Certificate</p>
-              <h3>Background</h3>
-              <p>Write stuff here</p>
-            </div>
-          </div>
-
-        </div>
+      <!--Bio-->
+      <div class="container-fluid bio" id="bio">
+          <dl>
+            <dt>Goal</dt>
+            <dd>To build things that make the world a better, more interesting place.</dd>
+            <dt>Career objective</dt>
+            <dd>To acquire a position with a dynamic, creative team.</dd>
+            <dt>Interests</dt>
+            <dd>UI/UX, Javascript, Usability, Data Architecture, Concept Art
+            <dt>Hobbies</dt>
+            <dd>Mountaineering, reading science-fiction, board and card games.</dd>
+            <dt>Current location</dt>
+            <dd>Seattle, WA</dd>
+            <dt>Education</dt>
+            <dd>M.A., Psychology (Seattle University) | B.A., English (Indiana University)</dd>
+          </dl>
       </div> <!--/bio section-->
 
-     <div id="contact">
-        <div class="container-fluid">
-          <div class="row">
-            <h2>Contact</h2>
-          </div>
-          <div class="row">
-            <div class="col-xs-12 col-md-4">
-
-            </div>
-            <div class="col-xs-12 col-md-4">
-            </div>
-            <div class="col-xs-12 col-md-4">
-            </div>
-          </div>
-        </div>
+      <!--Contact-->
+     <div class="container-fluid contact" id="contact">
+       <div class="contact-spacer"></div>
+       <div class="row">
+         <div class="contact-box col-xs-12 col-md-4">
+           <figure>
+             <img src="images/Mail_White.png" alt="email" width="50px" height="50px">
+             <figcaption>lukegreen303@gmail.com</figcaption>
+           </figure>
+         </div>
+         <div class="contact-box col-xs-12 col-md-4">
+           <figure>
+             <a href="https://github.com/lukegreen"><img src="images/Github_White.png" alt="email envelope" width="50px" height="50px"></a>
+             <figcaption>GitHub</figcaption>
+           </figure>
+         </div>
+         <div class="contact-box col-xs-12 col-md-4">
+           <figure>
+            <a href="https://www.linkedin.com/in/luke-green-25733512"><img src="images/LinkedIN_White.png" alt="LinkedIn" width="50px" height="50px"></a>
+            <figcaption>LinkedIn</figcaption>
+          </figure>
+         </div>
+       </div>
       </div> <!--/contact section-->
+
+      <footer>
+        <h5>Luke Green, 2017 | site powered by Yeoman, Bower, Grunt, HTML5, CSS3, jQuery, GitHub Pages</h5>
+      </footer>
 
 
    </div> <!-- /site wrapper-->

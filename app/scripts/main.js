@@ -1,36 +1,50 @@
 $(document).ready(function(){
 
-  var waypoint1 = new Waypoint({
-  element: document.getElementById('main-title'),
-  handler: function(direction) {
-    if (direction === 'down') {
-      $('#main-title').fadeOut('slow');
- }
- else {
-   $('#main-title').fadeIn('slow');
- }
-  },
-  offset: 200
-});
+  $('.skill-box').hover(function(){
+    $(this).children('h2').fadeOut(500);
 
-  var paragraphWaypoint = new Waypoint ({
-    element: document.getElementById('main-title'),
-    handler: function(direction) {
-      if (direction === 'down') {
-        $('#statement').css('visibility','visible').hide().fadeIn('slow');
-      } else {
-        $('#statement').fadeOut('slow');
-      }
-    },
-    offset: 150
+  }, function(){
+    $(this).children('h2').fadeIn();
   });
 
-  var skillsWaypoint = new Waypoint ({
-    element: document.getElementById('skills'),
-    handler: function(down) {
-        $('#html, #css, #javascript, #angular, #photoshop, #illustrator, #blender, #indesign').addClass("full");
-    },
-    offset: 800
+  $('#application-button').on('click', function(){
+    console.log('I heard a click.');
+    var imageDisplay = $('#responsive-sample').css('display');
+    if(imageDisplay != 'none') {
+      $('#responsive-sample').fadeOut(200);
+    } else {
+      $('#responsive-sample').fadeIn(200);
+    }
+  });
+
+  $('#ui-button').on('click', function(){
+    console.log('I heard a click.');
+    var imageDisplay = $('#ui-sample').css('display');
+    if(imageDisplay != 'none') {
+      $('#ui-sample').fadeOut(200);
+    } else {
+      $('#ui-sample').fadeIn(200);
+    }
+  });
+
+  $('#illustration-button').on('click', function(){
+    console.log('I heard a click.');
+    var imageDisplay = $('#illustration-sample').css('display');
+    if(imageDisplay != 'none') {
+      $('#illustration-sample').fadeOut(200);
+    } else {
+      $('#illustration-sample').fadeIn(200);
+    }
+  });
+
+  $('#three-d-button').on('click', function(){
+    console.log('I heard a click.');
+    var imageDisplay = $('#three-d-sample').css('display');
+    if(imageDisplay != 'none') {
+      $('#three-d-sample').fadeOut(200);
+    } else {
+      $('#three-d-sample').fadeIn(200);
+    }
   });
 
 })
