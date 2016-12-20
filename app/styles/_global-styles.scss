@@ -178,21 +178,12 @@ li {
   padding: 0;
   h2 {
     visibility: hidden;
-    position: absolute;
-    top: 120px;
-    left: 80px;
     color: white;
     text-align: center;
-  }
-  img {
-    width: 100%;
-    height: auto;
   }
 }
 
 .sample-box img:hover {
-	opacity: .3;
-  filter: blur(3px);
 }
 
 .sample-box:hover h2 {
@@ -206,6 +197,11 @@ li {
 .sample-box-two {
   background-color: #52727F;
 }*/
+
+#application-sample-one {
+
+
+}
 
 .portfolio-button {
   border-radius: 0;
