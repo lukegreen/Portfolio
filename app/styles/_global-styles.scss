@@ -193,9 +193,22 @@ li {
   margin-bottom: 20px;
 }
 
+#application-sample-one img {
+  width: 100%;
+  height: auto;
+
+}
+
+#application-sample-one h2 {
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  height: 300px;
+  line-height: 300px;
+}
+
 #application-sample-one:hover {
-  background: url(../images/API-superstore-screen.jpg) center;
-  background-size: cover;
+	opacity: .5;
 }
 
 /*Bio*--------------------------------*/
@@ -284,4 +297,26 @@ figcaption {
 
 .contact h2 {
   color: white;
+}
+
+/*Modal styles-----------------*/
+
+.modal-title {
+  color: #58CFFF;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.modal-body {
+  font-family: 'Open sans', sans-serif;
+  h5 {
+    color: #58CFFF;
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+  img {
+    display: block;
+    height: auto;
+    width: 300px;
+    margin: auto;
+  }
 }
