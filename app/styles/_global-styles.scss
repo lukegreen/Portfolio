@@ -172,43 +172,46 @@ li {
   margin-top: 70px;
 }
 
-.sample-box-one {
+.sample-box {
   line-height: 300px;
   height: 300px;
-  text-align: center;
+  padding: 0;
+  h2 {
+    visibility: hidden;
+    position: absolute;
+    top: 120px;
+    left: 80px;
+    color: white;
+    text-align: center;
+  }
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.sample-box img:hover {
+	opacity: .3;
+  filter: blur(3px);
+}
+
+.sample-box:hover h2 {
+  visibility: visible;
+}
+
+/*.sample-box-one {
   background-color: #58CFFF;
 }
 
 .sample-box-two {
-  line-height: 300px;
-  height: 300px;
-  text-align: center;
   background-color: #52727F;
-}
+}*/
 
 .portfolio-button {
   border-radius: 0;
   background-color: #00A9CC;
   border-color: #00A9CC;
   margin-bottom: 20px;
-}
-
-#application-sample-one img {
-  width: 100%;
-  height: auto;
-
-}
-
-#application-sample-one h2 {
-  color: white;
-  text-align: center;
-  vertical-align: middle;
-  height: 300px;
-  line-height: 300px;
-}
-
-#application-sample-one:hover {
-	opacity: .5;
 }
 
 /*Bio*--------------------------------*/
@@ -318,5 +321,22 @@ figcaption {
     height: auto;
     width: 300px;
     margin: auto;
+  }
+}
+
+footer {
+  position: relative;
+  top: 400px;
+  margin: 0;
+  height: auto;
+  min-height: 100px;
+  color: #58CFFF;
+  background-color: #2C677F;
+  h5 {
+    text-align: center;
+    margin: 0;
+    padding-top: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
