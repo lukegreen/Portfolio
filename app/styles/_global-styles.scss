@@ -168,7 +168,7 @@ li {
   margin-top: 100px;
 }
 
-#concept-sample {
+#concept-sample, #three-d-sample, #illustration-sample {
   margin-top: 70px;
 }
 
@@ -176,31 +176,24 @@ li {
   line-height: 300px;
   height: 300px;
   padding: 0;
-  h2 {
-    visibility: hidden;
-    color: white;
+}
+
+.sample-box-overlay{
+  visibility: hidden;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  h2{
+    color:white;
     text-align: center;
+    line-height: 300px;
+    vertical-align: middle;
   }
 }
 
-.sample-box img:hover {
-}
-
-.sample-box:hover h2 {
+.sample-box:hover > .sample-box-overlay {
   visibility: visible;
-}
-
-/*.sample-box-one {
-  background-color: #58CFFF;
-}
-
-.sample-box-two {
-  background-color: #52727F;
-}*/
-
-#application-sample-one {
-
-
 }
 
 .portfolio-button {
@@ -209,6 +202,59 @@ li {
   border-color: #00A9CC;
   margin-bottom: 20px;
 }
+
+/*Begin Sample Box Backgrounds*------------------*/
+
+#application-sample-one {
+  background: url("../images/ZG-screen.jpg") center;
+  background-size: cover;
+}
+
+#application-sample-two {
+  background: url("../images/Rovertrak-wireframes.jpg") center;
+  background-size: cover;
+}
+
+#application-sample-three {
+  background: url("../images/API-superstore-screen.jpg") center;
+  background-size: cover;
+}
+
+#ui-sample-one {
+  background: url("../images/HELIONOX-architects-screen.jpg") center;
+  background-size: cover;
+}
+
+#ui-sample-two {
+  background: url("../images/SW-wireframes.jpg") center;
+  background-size: cover;
+}
+
+#ui-sample-three {
+  background: url("../images/QuickBGG-screen.jpg") center;
+  background-size: cover;
+}
+
+#illustration-sample-one {
+  background: url("../images/tiberius-mobile.jpg") center;
+  background-size: cover;
+}
+
+#illustration-sample-two {
+  background: url("../images/underworld architect.jpg") center;
+  background-size: cover;
+}
+
+#illustration-sample-three {
+  background: url("../images/Watchmaker-FINAL.jpg") center;
+  background-size: cover;
+}
+
+#three-d-sample-one {
+  background: url("../images/Illogic-probe-FINAL.jpg") center;
+  background-size: cover;
+}
+
 
 /*Bio*--------------------------------*/
 
