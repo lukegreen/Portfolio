@@ -4,7 +4,8 @@
   "dependencies": {
     "bootstrap-sass": "~3.3.5",
     "modernizr": "~2.8.3",
-    "waypoints": "^4.0.1"
+    "waypoints": "^4.0.1",
+    "smooth-scroll": "^1.0.1"
   },
   "overrides": {
     "bootstrap-sass": {
