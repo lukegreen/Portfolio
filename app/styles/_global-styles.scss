@@ -2,8 +2,9 @@
 body {
    background: url(../images/portfolio-pic-3.jpg) no-repeat center fixed;
    -webkit-background-size: cover;
-   //-moz-background-size: cover;
-   //background-size: cover;
+   -moz-background-size: cover;
+   -ms-background-size: cover;
+   background-size: cover;
    margin-top: 0;
    padding: 0;
 
