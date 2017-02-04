@@ -10,19 +10,6 @@ body {
 
  }
 
-@media only screen and (max-width: 400px){
-   body {
-     background: url(../images/portfolio-pic-3-small.jpg) no-repeat center fixed;
-     -webkit-background-size: cover;
-     -moz-background-size: cover;
-     -ms-background-size: cover;
-     background-size: cover;
-     margin-top: 0;
-     padding: 0;
-   }
- }
-
-
 h1, h2 {
    color: black;
    font-family: 'Ubuntu', sans-serif;
