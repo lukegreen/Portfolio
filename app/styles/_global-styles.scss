@@ -10,6 +10,18 @@ body {
 
  }
 
+@media only screen and (max-width: 414px){
+   body {
+     background: url(../images/mobile-pic-lg.jpg) no-repeat center fixed;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -ms-background-size: cover;
+     background-size: cover;
+     margin-top: 0;
+     padding: 0;
+   }
+ }
+
 h1, h2 {
    color: black;
    font-family: 'Ubuntu', sans-serif;
