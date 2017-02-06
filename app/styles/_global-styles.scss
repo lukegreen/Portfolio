@@ -13,10 +13,10 @@ body {
 @media only screen and (max-width: 414px){
    body {
      background: url(../images/mobile-pic-lg.jpg) no-repeat center fixed;
-     -webkit-background-size: cover;
-     -moz-background-size: cover;
-     -ms-background-size: cover;
-     background-size: cover;
+     -webkit-background-size: auto;
+     -moz-background-size: auto;
+     -ms-background-size: auto;
+     background-size: auto;
      margin-top: 0;
      padding: 0;
    }
