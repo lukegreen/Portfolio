@@ -12,11 +12,7 @@ body {
 
 @media only screen and (max-width: 414px){
    body {
-     background: url(../images/mobile-pic-lg.jpg) fixed;
-     background-size: 100%;
-     width: 100%;
-     margin-top: 0;
-     padding: 0;
+     background: url(../images/mobile-pic-lg.jpg) no-repeat center fixed;
    }
  }
 
