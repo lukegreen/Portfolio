@@ -1,6 +1,7 @@
 
 body {
    background: url(../images/portfolio-pic-3.jpg) no-repeat center fixed;
+   /*background: url(../images/duchess-for-web-small.jpg) no-repeat center fixed;*/
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -ms-background-size: cover;
@@ -10,11 +11,11 @@ body {
 
  }
 
-@media only screen and (max-width: 414px){
+/*@media only screen and (max-width: 414px){
    body {
      background: url(../images/mobile-pic-lg.jpg) no-repeat center scroll;
    }
- }
+ }*/
 
 h1, h2 {
    color: black;
@@ -232,7 +233,7 @@ li {
 }
 
 #ui-sample-one {
-  background: url("../images/HELIONOX-architects-screen.jpg") center;
+  background: url("../images/BrewPulse.jpg") center;
   background-size: cover;
 }
 
